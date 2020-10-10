@@ -1,5 +1,11 @@
 import React from 'react';
+import Nav from '../components/nav';
 
 export default function FourOhFourPage() {
-  return <p>Hey - That page doesn`t exist!!!</p>;
+  return (
+    <div>
+      <Nav />
+      <p>Hey - That page doesn`t exist!!!</p>
+    </div>
+  );
 }
