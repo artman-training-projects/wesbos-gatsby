@@ -23,4 +23,5 @@
     "javascript",
     "javascriptreact"
   ],
+  "editor.tabSize": 2,
 }
