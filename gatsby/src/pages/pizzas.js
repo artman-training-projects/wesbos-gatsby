@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import PizzaList from '../components/PizzaList';
 
 export default function PizzasPage({ data }) {
-  const pizzas = data.pizzas.nodes
+  const pizzas = data.pizzas.nodes;
   return <PizzaList pizzas={pizzas} />;
 }
 
